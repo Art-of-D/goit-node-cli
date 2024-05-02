@@ -5,7 +5,7 @@ import { default as detectEncodeLanguage } from "detect-file-encoding-and-langua
 import { v4 as uuidv4 } from "uuid";
 
 const __filename = fileURLToPath(import.meta.url);
-const contactsPath = path.join(path.dirname(__filename), "db/contacts.json");
+const contactsPath = path.join(path.dirname(__filename), "db", "contacts.json");
 const encoding = detectEncodeLanguage(contactsPath);
 
 const readFile = async () => {

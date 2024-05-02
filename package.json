@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js -a list"
+    "start": "node index.js -a list"
   },
   "keywords": [],
   "author": "Artur Didur <didur.art@gmai.com>",
